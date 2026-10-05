@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.sqlite
+*.sqlite3
+*.db
+scrape_errors.csv
+sections.csv
+properties.csv
+sections_wide.csv
+.dlubal-cache/
