@@ -160,6 +160,7 @@ class Section:
                 self.standard,
                 self.manufacturer,
                 self.source,
+                self.source_url,
             )
 
     @staticmethod

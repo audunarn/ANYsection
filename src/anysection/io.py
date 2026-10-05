@@ -96,6 +96,7 @@ def read_properties_csv(path: str | Path) -> list[Section]:
                 row.get("standard"),
                 row.get("manufacturer"),
                 row.get("source"),
+                row.get("source_url"),
             )
             if identifier not in sections:
                 sections[identifier] = Section(
