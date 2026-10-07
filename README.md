@@ -165,3 +165,10 @@ The Dlubal importer:
 5. records scrape success/failure in SQLite so large runs are resumable.
 
 Before redistributing a generated third-party catalogue, verify the relevant source terms/licensing. The package itself is designed so the same schema can later be populated from standards/manufacturer geometry and properties calculated independently.
+
+## License
+
+Original source code is licensed under the [Mozilla Public License 2.0](LICENSE).
+Original narrative documentation is licensed under [CC BY 4.0](docs/LICENSE.md);
+embedded code and configuration remain MPL-2.0. Third-party catalogue data,
+quotations and resources retain their owners’ terms and are not relicensed.
