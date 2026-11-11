@@ -2,7 +2,7 @@
 
 `ANYsection` is the cross-section layer for the ANY engineering ecosystem.
 
-It is intentionally independent of `ANYsolver`: a solver should consume a section object and its engineering properties without caring whether those properties came from a standard catalogue, an external database, a user-defined section, or an in-house property calculator.
+It is intentionally independent of `ANYfeSolver`: a solver should consume a section object and its engineering properties without caring whether those properties came from a standard catalogue, an external database, a user-defined section, or an in-house property calculator.
 
 ## Scope
 
@@ -145,14 +145,14 @@ The intended dependency direction is:
 ```text
 ANYmaterial ─────┐
                  │
-ANYsection ──────┼──> ANYsolver
+ANYsection ──────┼──> ANYfeSolver
                  │
 ANYgeometry ─────┘
         │
      ANYmesh
 ```
 
-`ANYsection` does not depend on `ANYsolver`.
+`ANYsection` does not depend on `ANYfeSolver`.
 
 ## Data provenance
 
